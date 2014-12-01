@@ -5,7 +5,9 @@ public class ISSStudent implements Comparable{
     private int id;
     
     public ISSStudent (String n, String a, int i){
-        
+        name = n;
+        address = a;
+        id = i;
     }
     
     public int getID(){
